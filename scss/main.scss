@@ -1,0 +1,165 @@
+@import 'about';
+@import 'responsiv';
+@import 'dis_implantasiyasi';
+@import 'estetik_stomatologiya';
+@import 'foto_img';
+@import 'home';
+@import 'question';
+@import 'meqale';
+@import 'contact';
+@import 'vido';
+@import 'colors';
+
+*{margin: 0;
+   box-sizing: border-box;}
+.icon_footer{color:black;
+              padding: 8px;
+               font-size: 20px !important;
+               border-radius: 1rem;
+              background-color: #ffff;}
+
+
+
+footer{color: #ffff;
+  font-size: 14px;}
+  .footer_a{
+    color: #ffff;
+    padding-bottom: 10px;
+    font-size: 12px;
+    &:hover{
+      text-decoration: none;
+      color: #ffff;
+    }}
+.li_padding{
+  padding-bottom: 20px;
+}
+
+
+.top_img{
+  background-image: url(../img/top_img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
+}
+   .languace{
+     text-align: end;
+   }
+   .languace_2{
+     text-align: end;
+   }
+   .top_img_a{
+  font-size: 12px;
+  color: #ffff;
+}
+.top_a{
+  font-size: 12px;
+  color: #36A0CD;
+}
+.top_a_rest{
+  font-size: 12px;
+  color:  #36A0CD;
+  &:hover{
+    color:  #36A0CD;
+    text-decoration: none;
+  }
+}
+.top_a:hover{text-decoration: none;
+  color: #36A0CD;}
+.navbar_bg{
+  background-color: #ffff;
+}
+.lan{
+  background-color: rgb(243, 239, 239);
+  border: 1px solid rgb(243, 239, 239);
+}
+.top_img_a:hover{text-decoration: none;
+          color: #ffff;}
+.icon{color:#36A0CD;
+               padding: 7px;
+               font-size: 9px !important;
+               border-radius: 1rem;
+               margin: 0 5px 0 5px;
+              background-color: #ffff;}
+.icon_1{color:white;
+               padding: 7px;
+               font-size: 9px !important;
+               border-radius: 1rem;
+               margin: 0 5px 0 5px;
+              background-color: #36A0CD;}
+.nav_a{
+  color: #36A0CD !important;
+  font-size: 14px !important;
+  padding: 20px !important;
+}
+.nav_3{
+  margin: 20px 0 20px 0;
+}
+.dropdown-menu,.dropdown-item{
+  color: #36A0CD !important;
+  font-size: 14px !important;
+}
+.dropdown-menu{
+  border: 1px solid white;
+}
+   @media screen and (max-width: 1920px){
+    .languace{
+      display: none;
+    }
+    .nav_img{
+        display:none;
+      }
+      .navbar_bg{
+  background-color: #ffff;
+}
+
+.nav_a{
+  color: #36A0CD !important;
+  font-size: 14px !important;
+  padding: 20px !important;
+}
+.dropdown-menu,.dropdown-item{
+  color: #36A0CD !important;
+  font-size: 14px !important;
+}
+.dropdown-menu{
+  border: 1px solid white;
+}
+   }
+   .languace_2{
+      display:block!important;
+    }
+   @media screen and (max-width: 1800px) {
+  .top_col {
+    display: none;
+  }
+  .languace{
+      display: block;
+    }
+    .languace_2{
+      display: none !important;
+    }
+}
+@media screen and (max-width: 996px){
+      .nav_img_1{
+        display: none;
+      }
+      .nav_img{
+        display: block;
+      }
+      .navbar_bg{
+      background-color: #36A0CD;
+}
+.nav_a{
+  color: white !important;
+  font-size: 12px !important;
+  padding: 20px !important;
+}
+.dropdown-menu,.dropdown-item{
+  color: #ffff !important;
+  font-size: 12px !important;
+}
+.dropdown-menu{
+  border: 1px solid #36A0CD;
+  background-color: #36A0CD;
+}
+}

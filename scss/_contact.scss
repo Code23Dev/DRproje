@@ -1,0 +1,141 @@
+form {
+   max-width: 100%;
+   text-align: center;
+   margin: 20px auto;
+   #input-name_2{
+    border:2px solid  #36A0CD;
+    background-color: white;
+   }
+   #input-email_2{
+    border:2px solid #36A0CD;
+    background-color: white;
+   }
+   #input-subject_2{
+    border:2px solid  #36A0CD;
+    background-color: white;
+   }
+   #input-message_2{
+    border:2px solid #36A0CD;
+    background-color: white;
+   }
+   #id_form_2{
+    background-color: white !important;
+    color: #36A0CD!important;
+   }
+  input, textarea {
+     border:0; outline:0;
+     padding: 1em;
+     display: block;
+     width: 100%;
+     margin-top: 1em;
+     font-family: 'Merriweather', sans-serif;
+     resize: none;
+    
+  }
+  input{ margin-bottom: 80px;}
+
+  
+  #input-submit_2 {
+     color: white;
+     background:#36A0CD;
+     cursor: pointer;
+     padding: 10px;
+     width: 50%;
+     border-radius: 2rem;
+     float: right;
+  }
+  
+  textarea {
+      height: 347px;
+  }
+}
+
+.contact_col_div{
+  background-color: #36A0CD;
+  width: 80%;
+  padding-left: 20px;
+}
+.col_contact_1{
+   float: left;
+   width: 40%;
+}
+.col_contact_2{
+   float: left;
+   width: 60%;
+}
+.col_content{
+   padding: 12px;
+}
+.half {
+   float: left;
+   width: 48%;
+   margin-bottom: 1em;
+ }
+ 
+ .right { width: 50%; }
+ 
+ .left {
+      margin-right: 2%; 
+ }
+ 
+ .cf:before,
+ .cf:after {
+     content: " ";
+     display: table;
+ }
+ 
+ .cf:after {
+     clear: both;
+ }
+@media screen and (max-width: 600px) {
+   .column {
+     width: 100%;
+   }
+   .half {
+     width: 100%; 
+     float: none;
+     margin-bottom: 0; 
+  }
+  #input-submit_2 {
+   color: white;
+   background:#36A0CD;
+   cursor: pointer;
+   padding: 10px;
+   width: 100% !important;
+   border-radius: 2rem;
+   float: right;
+}
+
+}
+@media screen and (max-width: 996px){
+   .col_contact_1{
+      float: left;
+      width: 100%;
+   }
+   .col_contact_2{
+      float: left;
+      width: 100%;
+   }
+}
+.card_contact_1{
+   float: left;
+   width: 20%;
+   height: 100%;
+}
+.card_contact_2{
+   float: left;
+   width: 70%;
+   height: 100%;
+}
+.form-control{
+   border: 2px solid #36A0CD !important;
+   border-radius: 0% !important;
+}
+.div_auto_card{
+ background-color: #36A0CD;
+ height: 100%;
+ padding: 20px;
+}
+.btn-info{
+   float: right;
+}

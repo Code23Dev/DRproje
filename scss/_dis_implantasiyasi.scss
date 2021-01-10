@@ -1,0 +1,66 @@
+.dis_imp_h1{
+  color: #36A0CD;
+  font-size: 30px;
+}
+.imp_h3{font-size: 18px;
+}
+.imp_p{
+  font-size: 18px;
+  color: #4D4D4D;
+}
+.form-check_div{
+  background-color: #36A0CD;
+  margin: 9px 0 0 0;
+  padding: 40px;
+}
+.form-check_h1{
+  color: white;
+  font-size: 20px;
+}
+.form_check{
+  padding: 10px;
+}
+.form-check_label{
+  color: white;
+  font-size: 16px;
+  &:hover{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+  }
+}
+.f{
+  padding: 18px 0 30px 0;
+}
+
+
+@media screen and (max-width: 1920px){
+  .f {
+    float: left;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1709px){
+  .f {
+    float: left;
+    width: 50%;
+  }
+}
+@media screen and (max-width: 990px){
+  .f {
+    float: left;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1221px){
+  .f {
+    float: left;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1713px){
+  .f {
+    float: left;
+    width: 100%;
+  }
+}

@@ -1,0 +1,38 @@
+.accordion {
+  background-color: white;
+  color: #444;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  transition: 0.4s;
+}
+
+.accordion:after {
+  content: '\002B';
+  color:#36A0CD;
+  font-weight: bold;
+  font-size: 30px;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+  font-size: 30px;
+}
+
+.panel {
+  padding: 0 20px 0 20px;
+  background-color: #ECDADA;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.question_h1{
+  color: #36A0CD;
+  font-size: 30px;
+  padding-bottom: 30px;
+}

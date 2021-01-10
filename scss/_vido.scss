@@ -1,0 +1,27 @@
+.vido_main{
+  background-color: #36A0CD;
+  height: 420px;
+  width: 100%;
+}
+.vido_col{
+  float: left;
+  width: 33%;
+  margin-bottom: 10px;
+}
+.col_vido{
+  margin-bottom: 10px;
+  height: 100%;
+}
+
+
+@media screen and (max-width: 996px){
+  .vido_col{
+    width: 100% !important;
+    margin-bottom: 50px;
+  }
+
+}
+.video_botton_h5{
+  color: #36A0CD;
+  font-size: 16px;
+}
